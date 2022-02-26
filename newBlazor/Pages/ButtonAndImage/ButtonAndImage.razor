@@ -1,0 +1,38 @@
+<div>
+    <h3>@title</h3>
+    <div>
+        <div>
+            <img width="300" height="250" src="@showImage()">
+        </div>
+    </div>
+    <br/>
+    <div>
+        <input class="btn btn-primary" type="button" value="@buttonName()" @onclick="args =>GenericClick(args)">
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string title { get; set; } = "default";
+    [Parameter]
+    public string buttonLabel { get; set; }= "default";
+    [Parameter]
+    public string imageName { get; set; }= "default";
+
+    public string showImage()
+    {
+        return $"media/{imageName}.jpg";
+    }
+
+    public string buttonName()
+    {
+        return buttonLabel;
+    }
+    [Parameter]
+    public EventCallback<MouseEventArgs> onGenericClick { get; set; }
+
+    public async Task GenericClick(MouseEventArgs args)
+    {
+        await onGenericClick.InvokeAsync();
+    }
+}
