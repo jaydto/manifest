@@ -6,21 +6,31 @@
         <div class="col-md-6">
             <p>Troll toll price @trollTollPrice</p>
             <ButtonAndImage title="Troll Toll" imageName="troll.png" buttonLabel="pay the toll" onGenericClick="DidYouPayTheTroll"></ButtonAndImage>
-            <p>@message</p>
+             @if (trollTollPaid == true)
+                       {
+                           <p> You have won the notion of life and have gotten the item below as a gift"</p>
+                       }
+                       else
+                       {
+                           <p>@message</p> 
+                       }
         </div>
         <div class="col-md-6">
             <p>Gold Mined: @goldMined</p>
 
             <ButtonAndImage title=" Gold Mine" imageName="water-g3a92d397f_1920.jpg" buttonLabel="Gold" onGenericClick="IncrementCount"></ButtonAndImage>
-            <p>@message</p>
+          
         </div>
     </div>
     <div class="row">
         @if(trollTollPaid==true){
-        <div class="align-content-center">
-            <img src="media/1920-1200-222694.jpg" width="300" height="250" alt="">
-        </div>
+            <div class="align-content-center">
+                <img src="media/1920-1200-222694.jpg" width="300" height="250" alt="">
+            </div>
+            trollTollPaid = false;
+
         }
+       
     </div>
 </div>
 
@@ -51,7 +61,7 @@
             trollTollPaid = true;
             goldMined -= trollTollPrice;
             message = "Troll trollTollPaid ";
-        }else if(goldMined<trollTollPrice)
+        }else 
         {
             message = "Increase your gold to pay the toll";
         }

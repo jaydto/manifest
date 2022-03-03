@@ -399,7 +399,6 @@
 /home/jayd/Projects/dotnet/newBlazor/newBlazor/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.Tracing.dll.gz
 /home/jayd/Projects/dotnet/newBlazor/newBlazor/bin/Debug/net6.0/newBlazor.staticwebassets.runtime.json
 /home/jayd/Projects/dotnet/newBlazor/newBlazor/bin/Debug/net6.0/newBlazor.dll
-/home/jayd/Projects/dotnet/newBlazor/newBlazor/bin/Debug/net6.0/ref/newBlazor.dll
 /home/jayd/Projects/dotnet/newBlazor/newBlazor/bin/Debug/net6.0/newBlazor.pdb
 /home/jayd/Projects/dotnet/newBlazor/newBlazor/bin/Debug/net6.0/Microsoft.AspNetCore.Authorization.dll
 /home/jayd/Projects/dotnet/newBlazor/newBlazor/bin/Debug/net6.0/Microsoft.AspNetCore.Components.dll
@@ -813,3 +812,4 @@
 /home/jayd/Projects/dotnet/newBlazor/newBlazor/obj/Debug/net6.0/newBlazor.dll
 /home/jayd/Projects/dotnet/newBlazor/newBlazor/obj/Debug/net6.0/ref/newBlazor.dll
 /home/jayd/Projects/dotnet/newBlazor/newBlazor/obj/Debug/net6.0/newBlazor.pdb
+/home/jayd/Projects/dotnet/newBlazor/newBlazor/obj/Debug/net6.0/refint/newBlazor.dll

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LZdDWMYw7Gpvk9buft16q7FYo2ugMtDV52TLNfn7A+I=",
+  "Hash": "TDBTZbO+0UyG6bNiLq6WNklSjHiKPT6wmG6ONEVk1fE=",
   "Source": "newBlazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -7240,6 +7240,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/media/96758.jpg"
+    },
+    {
+      "Identity": "/home/jayd/Projects/dotnet/newBlazor/newBlazor/wwwroot/media/troll.png",
+      "SourceId": "newBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jayd/Projects/dotnet/newBlazor/newBlazor/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "media/troll.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/media/troll.png"
+    },
+    {
+      "Identity": "/home/jayd/Projects/dotnet/newBlazor/newBlazor/wwwroot/media/water-g3a92d397f_1920.jpg",
+      "SourceId": "newBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jayd/Projects/dotnet/newBlazor/newBlazor/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "media/water-g3a92d397f_1920.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/media/water-g3a92d397f_1920.jpg"
     },
     {
       "Identity": "/home/jayd/Projects/dotnet/newBlazor/newBlazor/wwwroot/sample-data/weather.json",
